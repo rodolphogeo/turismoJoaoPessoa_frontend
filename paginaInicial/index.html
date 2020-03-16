@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Turismo em João Pessoa</title>
+    <link rel="icon" href="images/tourism.svg">
+
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../layout/estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Cabeçalho da Página -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">
+            <span class="logo">Turismo em João Pessoa</span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.joaopessoa.pb.gov.br/" target="_blank">Site Oficial Prefeitura</a></li>
+            <li><a href="../mapa/mapa.html" target="_blank">Mapa Geral</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Título da Página -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Turismo em João Pessoa e Região</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+      
+        <!-- Box Ponto 1 -->
+        <div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/parqueSolonDeLucena.png" alt="...">
+              <div class="caption">
+                <h3>Parque Solón de Lucena</h3>
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                <p>
+                  <a href="#" class="btn btn-primary buttonInfo" data-toggle="modal" data-target="#ponto1" role="button">Informações</a>
+                  <a href="#" class="btn btn-primary buttonMap" role="button" onclick="openMap()">Visualizar no Mapa</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box Ponto 2 -->
+        <div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/hotelGlobo.png" alt="...">
+              <div class="caption">
+                <h3>Pôr do Sol no Hotel Globo</h3>
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                <p>
+                  <a href="#" class="btn btn-primary buttonInfo" data-toggle="modal" data-target="#ponto2" role="button">Informações</a>
+                  <a href="#" class="btn btn-primary buttonMap" role="button" onclick="openMap()">Visualizar no Mapa</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box Ponto 3 -->
+        <div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/bustoDeTamandare.png" alt="...">
+              <div class="caption">
+                <h3>Busto de Tamandaré</h3>
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                <p>
+                  <a href="#" class="btn btn-primary buttonInfo" data-toggle="modal" data-target="#ponto3" role="button">Informações</a>
+                  <a href="#" class="btn btn-primary buttonMap" role="button" onclick="openMap()">Visualizar no Mapa</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box Ponto 4 -->
+        <div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/farolCaboBranco.png" alt="...">
+              <div class="caption">
+                <h3>Farol de Cabo Branco</h3>
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                <p>
+                  <a href="#" class="btn btn-primary buttonInfo" data-toggle="modal" data-target="#ponto4" role="button">Informações</a>
+                  <a href="#" class="btn btn-primary buttonMap" role="button" onclick="openMap()">Visualizar no Mapa</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box Ponto 5 -->
+        <div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/estacaoDeCaboBranco.png" alt="...">
+              <div class="caption">
+                <h3>Estação de Cabo Branco</h3>
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                <p>
+                  <a href="#" class="btn btn-primary buttonInfo" data-toggle="modal" data-target="#ponto5" role="button">Informações</a>
+                  <a href="#" class="btn btn-primary buttonMap" role="button" onclick="openMap()">Visualizar no Mapa</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box Ponto 6 -->
+        <div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="images/espacoCultural.png" alt="...">
+              <div class="caption">
+                <h3>Espaço C. José Lins do Rêgo</h3>
+                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                <p>
+                  <a href="#" class="btn btn-primary buttonInfo" data-toggle="modal" data-target="#ponto6" role="button">Informações</a>
+                  <a href="#" class="btn btn-primary buttonMap" role="button" onclick="openMap()">Visualizar no Mapa</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Paginação -->
+    <nav aria-label="Navegação de página exemplo" align="center">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="index3.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+      </ul>
+    </nav>
+
+    <!-- Rodapé -->
+    <nav class="navbar navbar-default navbar-footer">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="collapse navbar-collapse" id="barra-navegacao">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">XXXX</a></li>
+              <li><a href="#">XXXX</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Janelas Modais -->
+
+    <!-- Modal Ponto 1 -->
+    <div class="modal fade" id="ponto1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Cabeçalho do Modal -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Parque Solón de Lucena</h4>
+          </div>
+          <!-- Corpo do Modal -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2" align="center">
+                  <img src="images/parqueSolonDeLucena2.png" alt="..." class="img-circle">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" align="center">
+                  <address>
+                    <strong>Endereço</strong><br>
+                    Rua Parque Sólon de Lucena<br>
+                    Centro, João Pessoa - PB<br>
+                    <strong>Telefone</strong><br>
+                    (83) 3214-1044<br>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div  class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
+                  <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Rodapé do Modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Ponto 2 -->
+    <div class="modal fade" id="ponto2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Cabeçalho do Modal -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Pôr do Sol no Hotel Globo</h4>
+          </div>
+          <!-- Corpo do Modal -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                  <img src="images/hotelGlobo2.png" alt="..." class="img-circle">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" align="center">
+                  <address>
+                    <strong>Endereço</strong><br>
+                    Largo de São Frei Pedro Gonçalves<br>
+                    Praça São Pedro Gonçalves, 7 - Varadouro, PB<br>
+                    <strong>Telefone</strong><br>
+                    Sem Contato<br>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div  class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
+                  <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Rodapé do Modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Ponto 3 -->
+    <div class="modal fade" id="ponto3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Cabeçalho do Modal -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Busto de Tamandaré</h4>
+          </div>
+          <!-- Corpo do Modal -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                  <img src="images/bustoDeTamandare2.png" alt="..." class="img-circle">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" align="center">
+                  <address>
+                    <strong>Endereço</strong><br>
+                    Avenida Almirante Tamandaré<br>
+                    Cabo Branco, João Pessoa - PB<br>
+                    <strong>Telefone</strong><br>
+                    Sem Contato<br>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div  class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
+                  <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Rodapé do Modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Ponto 4 -->
+    <div class="modal fade" id="ponto4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Cabeçalho do Modal -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Farol de Cabo Branco</h4>
+          </div>
+          <!-- Corpo do Modal -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                  <img src="images/farolCaboBranco2.png" alt="..." class="img-circle">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" align="center">
+                  <address>
+                    <strong>Endereço</strong><br>
+                    Avenida Cabo Branco<br>
+                    Cabo Branco, João Pessoa - PB<br>
+                    <strong>Telefone</strong><br>
+                    Sem Contato<br>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div  class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
+                  <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Rodapé do Modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Ponto 5 -->
+    <div class="modal fade" id="ponto5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Cabeçalho do Modal -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Estação de Cabo Branco</h4>
+          </div>
+          <!-- Corpo do Modal -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                  <img src="images/estacaoDeCaboBranco2.png" alt="..." class="img-circle">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" align="center">
+                  <address>
+                    <strong>Endereço</strong><br>
+                    Avenida João Cirilo da Silva<br>
+                    Altiplano Cabo Branco, João Pessoa - PB<br>
+                    <strong>Telefone</strong><br>
+                    (83) 3214-8303<br>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div  class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
+                  <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Rodapé do Modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Ponto 6 -->
+    <div class="modal fade" id="ponto6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- Cabeçalho do Modal -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Espaço Cultural José Lins do Rêgo</h4>
+          </div>
+          <!-- Corpo do Modal -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                  <img src="images/espacoCultural2.png" alt="..." class="img-circle">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4" align="center">
+                  <address>
+                    <strong>Endereço</strong><br>
+                    Rua Abdias Gomes de Almeida, 800<br>
+                    Tambauzinho, João Pessoa - PB<br>
+                    <strong>Telefone</strong><br>
+                    (83) 3255-8718<br>
+                  </address>
+                </div>
+              </div>
+              <div class="row">
+                <div  class="col-xs-12 col-sm-9 col-md-7 col-lg-6">
+                  <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis tristique metus. Ut lacinia et nisl a euismod. Fusce pulvinar molestie purus, id dignissim metus vulputate eleifend. Pellentesque in porta quam, nec faucibus lacus. Etiam ante magna, euismod non mi in, convallis suscipit nisl.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Rodapé do Modal -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../script/script.js"></script>
+  </body>
+</html>

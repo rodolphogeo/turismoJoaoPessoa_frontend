@@ -1,0 +1,82 @@
+body {
+    background-color: #EBEBEB;
+}
+
+.logo{
+	color: #ED1C24;
+	font-family: Impact;
+}
+
+.navbar{
+	border-bottom: 2px solid #CC0000;
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222222 100%);
+}
+
+.navbar-footer{
+	border-top: 2px solid #CC0000;
+    border-bottom: 0px solid transparent;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom,#222222 0,#3c3c3c 100%);
+}
+
+.navbar-toggle {
+    background-image: linear-gradient(to bottom,#222222 0,#3c3c3c 100%);
+    border: 1px solid transparent !important;
+    border-radius: 6px !important;
+}
+
+.navbar-toggle:hover {
+    background-image: linear-gradient(to bottom,#222222 0,#222222 100%);
+    border: 1px solid transparent !important;
+    border-radius: 6px !important;
+}
+
+.icon-bar {
+    background-color: #FFFFFF !important;
+}
+
+li > a:hover{
+	color: #FFFFFF !important;
+}
+
+li > a {
+	color: #9d9d9d !important;
+}
+
+.page-link {
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222222 100%);
+    border: 1px solid #222222 !important;
+}
+
+.page-header{
+    border-bottom:  1px solid #CC0000;
+}
+
+.buttonInfo {
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222222 100%);
+    border: 1px solid #222222 !important;
+    color: #9d9d9d !important;
+}
+
+.buttonMap {
+    background-image: linear-gradient(to bottom,#E6E6E6 0,#969696 100%);
+    border: 1px solid #969696 !important;
+    color: #3B3B3B !important;
+}
+
+.btn-primary:hover{
+	color: #FFFFFF !important;
+}
+
+.btn-primary:active {
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222222 100%);
+}
+
+.thumbnail{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mapid {
+    margin-top: -20px;
+    height: 580px;
+}
